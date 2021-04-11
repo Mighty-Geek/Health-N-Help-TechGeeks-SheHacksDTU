@@ -18,9 +18,6 @@ function handleClickOutside(e) {
         closeModal();
     }
 }
-// TODO: condition for coupons
-
-// modal.addEventListener('click', handleClickOutside);
 function show() {
     openModal();
 }
