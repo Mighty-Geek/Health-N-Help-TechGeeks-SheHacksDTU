@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #090909;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+}
+.choose{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.heading{
+    width: 50%;
+    height: auto;
+}
+.box{
+    position: absolute;
+    align-items: center;   
+    width: 35%;
+    height: 85%;
+    top: 10vh;
+    left: 30vw;
+    float: left;
+    padding: 50px;
+    background-color: #ededee;
+    /* box-shadow: 0px 0px 30px #888888; */
+    z-index: 100;
+}
+.box img{
+    margin-left: 4.75vw;
+}
+.logo{
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 12%;
+    width: auto;
+}
+.box a{
+    text-decoration: none;
+    color: #777;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 1.5rem;
+    padding: 0.5rem;
+}
+table{
+    margin-top: 1rem;
+}
+.btn{
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    background: #090909;
+    color: #eee;
+    cursor: pointer;
+    margin-right: 4rem;
+}
