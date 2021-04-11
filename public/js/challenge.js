@@ -17,7 +17,6 @@ function setup() {
 }
 
 function gotPoses(poses) {
-    // console.log(poses);
     if (poses.length > 0) {
         pose = poses[0].pose;
         skeleton = poses[0].skeleton;
@@ -45,7 +44,6 @@ function draw() {
             fill(0, 255, 0);
             ellipse(x, y, 16, 16);
 
-            // TODO: Write correct algorithm for exercise
 
             if (abs(pose.leftEar.x - pose.leftShoulder.x) < 10 || abs(pose.rightEar.x - pose.rightShoulder.x) < 10) {
                 correct = true;
@@ -56,13 +54,6 @@ function draw() {
                 continue;
             }
         }
-
-        // if (reps != initial) {
-        //     console.log("Reps : " + reps);
-        //     initial = reps;
-        // }
-        // console.log(reps);
-
 
         repCount.innerHTML = `<h2>${reps}</h2>`;
         for (let i = 0; i < skeleton.length; i++) {
