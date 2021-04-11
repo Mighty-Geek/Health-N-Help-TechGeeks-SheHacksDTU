@@ -20,11 +20,6 @@ function handleClickOutside(e) {
 }
 
 function showFriends() {
-    // if (!e) {
-    //     console.log('no friends to show');
-    //     return;
-    // }
-    // console.log(e);
     openModal();
 }
 button.addEventListener('click', showFriends)
